@@ -3,7 +3,18 @@
 Vim plugin for live-coding GLSL Shaders using glslViewer on RaspberryPi 
 
 ## Installation
-* Install [glslViewer](https://github.com/patriciogonzalezvivo/glslViewer).
+* Install [glslViewer](https://github.com/patriciogonzalezvivo/glslViewer)
+
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install libfreeimage-dev
+cd ~ 
+git clone http://github.com/patriciogonzalezvivo/glslViewer
+cd glslViewer
+make
+sudo make install
+```
 
 * Install [Pathogen](http://www.vim.org/scripts/script.php?script_id=2332)
 
@@ -11,7 +22,7 @@ Vim plugin for live-coding GLSL Shaders using glslViewer on RaspberryPi
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
-* Add this to the beginning of ```~/.vimrc```
+And add this to the beginning of ```~/.vimrc```
 
 ```
 execute pathogen#infect()

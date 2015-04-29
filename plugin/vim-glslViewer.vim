@@ -5,9 +5,9 @@ endif
 function! RenderFragmentShader()
     let extension = expand('%:e')
     if extension == "frag" || extension == "fs"
-        exec "!" . g:glslViewer_command . " " . bufname("%") . "&"
+        exec "!" . g:glslViewer_command . " " . bufname("%") . " -l &"
     endif
 endfunction
 
 autocmd! BufNewFile,BufRead  *.frag :call RenderFragmentShader()  
-nnoremap <buffer> <c-b> :call RenderFragmentShader()<cr>
+"nnoremap <buffer> <c-b> :call RenderFragmentShader()<cr>
