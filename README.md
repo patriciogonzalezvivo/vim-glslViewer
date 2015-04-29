@@ -11,13 +11,13 @@ Vim plugin for live-coding GLSL Shaders using glslViewer on RaspberryPi
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
-Add this to the beginning of ```~/.vimrc```
+3. Add this to the beginning of ```~/.vimrc```
 
 ```
 execute pathogen#infect()
 ```
 
-3. Clone this repository on the ```bundle/``` folder. For example:
+4. Clone this repository on the ```bundle/``` folder. For example:
 
 ```bash
 cd ~/.vim/bundle
