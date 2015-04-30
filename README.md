@@ -2,6 +2,10 @@
 
 Vim plugin for live-coding GLSL Shaders using glslViewer on RaspberryPi 
 
+<div style="float: right;">
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B5FSVSHGEATCG)
+</div>
+
 ## Installation
 * Install [glslViewer](https://github.com/patriciogonzalezvivo/glslViewer)
 
